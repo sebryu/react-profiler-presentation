@@ -1,0 +1,3 @@
+// CellRenderer Class
+-  this.props.onLayout(e);
++  this.props.onLayout(e, this.props.cellKey, this.props.index);

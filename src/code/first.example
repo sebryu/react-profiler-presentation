@@ -1,0 +1,13 @@
+<App>
+  <Component1>
+    <SmartComponent />
+    <SmartComponent />
+    <SmartComponent />
+    <SmartComponent />
+  </Component1>
+  <Component2>
+    <StupidComponent />
+    <StupidComponent />
+    <StupidComponent />
+  </Component2>
+</App>

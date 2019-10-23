@@ -1,0 +1,6 @@
+// AnotherComponent.js
+let counter = 0
+render() {
+  console.timeEnd(counter);
+  ...
+}

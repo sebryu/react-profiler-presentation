@@ -1,0 +1,20 @@
+// VirtualizedList.js
+  <CellRenderer
+    CellRendererComponent={CellRendererComponent}
+    ItemSeparatorComponent={ii < end ? ItemSeparatorComponent : undefined}
+    fillRateHelper={this._fillRateHelper}
+    horizontal={horizontal}
+    inversionStyle={inversionStyle}
+    item={item}
+    key={key}
+    prevCellKey={prevCellKey}
+    onUpdateSeparators={this._onUpdateSeparators}
+    onLayout={e => this._onCellLayout(e, key, ii)}
+    cellKey={key}
+    index={ii}
+    onUnmount={this._onCellUnmount}
+    parentProps={this.props}
+    ref={ref => {
+      this._cellRefs[key] = ref;
+    }}
+  />

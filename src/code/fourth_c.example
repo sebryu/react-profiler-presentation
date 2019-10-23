@@ -1,0 +1,5 @@
+// YetAnotherComponent.js
+render() {
+  console.log('ping 222245654754');
+  return <YetYetAnotherComponent />;
+}

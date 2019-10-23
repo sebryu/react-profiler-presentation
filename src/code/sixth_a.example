@@ -1,0 +1,5 @@
+// App.js
+render() {
+  console.log('App:', this.props, this.state);
+  ...
+}

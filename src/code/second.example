@@ -1,0 +1,9 @@
+<App>
+  <FlatList>
+    <Text />
+    <Text />
+    <Text />
+    ...
+    <Text />
+  </FlatList>
+</App>

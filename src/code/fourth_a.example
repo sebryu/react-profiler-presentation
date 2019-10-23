@@ -1,0 +1,5 @@
+// App.js
+render() {
+  console.log('ping');
+  return <AnotherComponent />;
+}

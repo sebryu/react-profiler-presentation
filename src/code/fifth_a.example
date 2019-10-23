@@ -1,0 +1,6 @@
+// App.js
+let counter = 0
+render() {
+  console.time(counter);
+  return <AnotherComponent counter={counter} />;
+}
